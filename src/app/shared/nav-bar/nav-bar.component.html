@@ -1,3 +1,19 @@
-<div *ngFor="let button of content" class="button-container" (click)="goToPage(button.page)">
-    <p [innerHtml]="button.title"></p>
+<div class="navtangle-container">
+    <div class="title">
+        <h1>Iron Mountain Armory - Samurai Armor</h1>
+    </div>
+    <div class="navtangle">
+        <div class="button">
+            <p>Home</p>
+        </div>
+        <div class="button">
+            <p>Our Armor</p>
+        </div>
+        <div class="button">
+            <p>FAQ</p>
+        </div>
+        <div class="button">
+            <p>Contact Us</p>
+        </div>
+    </div>
 </div>

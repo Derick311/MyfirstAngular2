@@ -1,0 +1,22 @@
+:host {
+    .background {
+        background-color: #1d1d1d;
+        background-image: url( //nebula.wsimg.com/29fb09f4e42609e28e1c88023ec029c9?AccessKeyId=531592D248B589D87A56&alloworigin=1);
+            background-position-x: center;
+        background-position-y: center;
+        background-position: center center;
+        background-repeat: repeat;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    app-nav-bar {
+        position: relative;
+    }
+}
