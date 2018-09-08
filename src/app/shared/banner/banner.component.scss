@@ -1,0 +1,12 @@
+:host {
+    .banner-container {
+        background-image: URL("./assets/images/banner-scroll.png");
+        background-repeat: no-repeat;
+        text-align: center;
+        height:330px;
+        width: 240px;
+        h1 {
+            font: size 30pt;
+        }
+    }
+}

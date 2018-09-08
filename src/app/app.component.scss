@@ -16,7 +16,13 @@
         overflow: hidden;
     }
 
-    app-nav-bar {
-        position: relative;
+    .app-wrapper {
+        width:1024px;
+        margin:auto;
+
+
+        app-nav-bar {
+            position: relative;
+        }
     }
 }

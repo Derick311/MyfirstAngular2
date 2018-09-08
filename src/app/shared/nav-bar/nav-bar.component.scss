@@ -1,13 +1,18 @@
 :host {
     .navtangle-container {
         .title {
-            text-align:right;
+            text-align: right;
+            padding:40px 10px 15px 10px;
+
+
             h1 {
-                font-weight:normal;
+                font-weight: normal;
                 font-family: baskerville;
-                color:white;
-            }           
+                color: white;
+                margin:0;
+            }
         }
+
         .navtangle {
             width: 100%;
             border: 1px solid black;
@@ -18,15 +23,22 @@
             .button {
                 display: inline-block;
                 padding: 15px;
-                
+
                 p {
                     margin: 0;
                     font-weight: 100;
                     color: white;
                     font-family: arial;
-                    font-size:20pt;
+                    font-size: 20pt;
                 }
             }
+        }
+
+        app-banner {
+            position: absolute;
+            top: 0;
+            left: 50px;
+            z-index: 1000;
         }
     }
 }

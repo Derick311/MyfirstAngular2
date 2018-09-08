@@ -10,11 +10,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AboutComponent } from './pages/about/about.component';
-import { ServicesComponent } from './pages/services/services.component';
-import { DonationsComponent } from './pages/donations/donations.component';
-import { DoctrineComponent } from './pages/doctrine/doctrine.component';
-
+import { HeroImageComponent} from './shared/hero-image/hero-image.component';
+import { BannerComponent } from './shared/banner/banner.component';
 
 // module
 @NgModule({
@@ -26,10 +23,8 @@ import { DoctrineComponent } from './pages/doctrine/doctrine.component';
     AppComponent,
     HomeComponent,
     NavBarComponent,
-    AboutComponent,
-    ServicesComponent,
-    DonationsComponent,
-    DoctrineComponent
+    HeroImageComponent,
+    BannerComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
